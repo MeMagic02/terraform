@@ -8,3 +8,4 @@ resource "aws_vpc" "dev_vpc" {
     name     = "deham10"
   }       
 }
+
