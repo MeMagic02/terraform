@@ -5,6 +5,6 @@ resource "aws_vpc" "dev_vpc" {
   enable_dns_support = true
   
   tags       =  {
-    name     = "deham10"
+    name     = "AimansVPC23-02-2024"
   }       
 }
