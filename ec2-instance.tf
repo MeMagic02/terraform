@@ -5,7 +5,7 @@ resource "aws_instance" "instance" {
   associate_public_ip_address = true
   key_name                    = "vockey"
   vpc_security_group_ids      = ["sg-0c63e7d2130251897"]
-  subnet_id                   = "subnet-0843618c695a9e548"
+  subnet_id                   = "subnet-08ad54bd2568f99a1"
   # iam_instance_profile        = "LabRole"
   count = 2
   tags = {
