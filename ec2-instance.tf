@@ -12,3 +12,10 @@ resource "aws_instance" "instance" {
     Name = "Sandbox1"
   }
 }
+#! /bin/bash
+# # Install updates
+sudo yum update -y
+# Install Apache server
+sudo yum install -y httpd
+# Install MariaDB, PHP and necessary tools
+sudo yum install -y mariadb105-server php php-mysqlnd unzip
