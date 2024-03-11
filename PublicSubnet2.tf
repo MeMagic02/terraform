@@ -6,6 +6,6 @@ resource "aws_subnet" "public-2" {
   map_public_ip_on_launch = true
 
   tags = {
-    Name = "deham9"
+    Name = "PublicSubnet2"
   }
 }
