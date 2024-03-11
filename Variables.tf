@@ -16,6 +16,6 @@ variable "AMIs" {
   type = map(string)
   description = "Region specific AMI"
   default = {
-    us-west-2 = "ami-0230bd60aa48260c6"
+    us-west-2 = "ami-0895022f3dac85884"
   }
 }
