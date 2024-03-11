@@ -22,7 +22,7 @@ resource "aws_instance" "instance" {
   #ami                         = data.aws_ami.latest_linux_ami.id
   ami = var.AMIs[var.AWS_REGION]
   instance_type               = "t3.micro"
-  availability_zone           = "us-east-1a"
+  availability_zone           = "us-west-2"
   associate_public_ip_address = true
   key_name                    = "deham9-iam"
   vpc_security_group_ids      = [aws_security_group.sg_vpc.id]
