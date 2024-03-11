@@ -20,14 +20,15 @@ data "aws_ami" "latest_linux_ami" {
 
 resource "aws_instance" "instance" {
   #ami                         = data.aws_ami.latest_linux_ami.id
-  ami = var.AMIs[var.AWS_REGION]
-  instance_type               = "t3.micro"
+  # ami = var.AMIs[var.AWS_REGION]
+  ami = "ami-052c9ea013e6e3567"
+  instance_type               = "t2.micro"
   availability_zone           = "us-west-2a"
   associate_public_ip_address = true
-  key_name                    = "deham9-iam"
+  key_name                    = "vockey"
   vpc_security_group_ids      = [aws_security_group.sg_vpc.id]
   subnet_id                   = aws_subnet.public-1.id
-  iam_instance_profile        = "deham9_ec2"
+  # iam_instance_profile        = "labrole"
   count = 1
   tags = {
     Name = local.name
