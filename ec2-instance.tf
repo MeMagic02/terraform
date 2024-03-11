@@ -1,5 +1,5 @@
 resource "aws_instance" "instance" {
-  ami = "ami-0d442a425e2e0a743"
+  ami = "ami-0895022f3dac85884"
   instance_type               = "t3.micro"
   availability_zone           = "us-west-2a"
   associate_public_ip_address = true
