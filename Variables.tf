@@ -8,7 +8,7 @@ variable "CIDR_BLOCK" {
 }
 
 variable "AWS_REGION" { 
-  default = "us-east-1"
+  default = "us-west-2"
   description = "AWS Region"  
 }
 
