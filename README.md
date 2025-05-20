@@ -4,4 +4,5 @@ WordPress server running from an EC2 Instance,
 inside of a VPC through Availabilty Zone us-west-2a,
 connected with an Aurora database
 
-![Architecture](arch1.jpg)
+<h2>📊 Architecture Diagram</h2>
+<img src="arch1.jpg" width="800">
