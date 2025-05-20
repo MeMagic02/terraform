@@ -5,4 +5,4 @@ inside of a VPC through Availabilty Zone us-west-2a,
 connected with an Aurora database
 
 <h2>📊 Architecture Diagram</h2>
-<img src="arch1.jpg" width="800">
+<img src="arch2.jpg" width="800">
